@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: LeftSelectButton_Text_script
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"1d85d4a4-92b8-496e-9638-9bc90a542c86","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"84d92516-2532-416c-81e7-6653e98a56ad","$version":"A","$type":"Bolt.Update","$id":"11"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":-25.0,"y":55.0},"guid":"aba86136-c7b2-433f-9a23-0067d3e62b1a","$version":"A","$type":"Bolt.SetMember","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"LeftSelectButton_Text","$type":"System.String"}},"position":{"x":-261.0,"y":169.0},"guid":"99fc5895-36bc-456a-8667-c58407344b99","$version":"A","$type":"Bolt.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"761b4e08-5148-4b3d-a5d3-01eaa7fb9176","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"9c501af4-a4cc-4155-9e57-65c674d94a05","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
